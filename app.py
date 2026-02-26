@@ -42,7 +42,7 @@ else:
 
 st.subheader ("selectbox")
 in_mod =st.selectbox(
-    "selecciona la modalidad"
+    "selecciona la modalidad",
     ("audio", "visual", "haptico"),
 )
 if in_mod =="audio":
