@@ -1,5 +1,5 @@
 import streamlit as st
-from PIl import image 
+from PIL import image 
 
 st.title ("snoppy")
 
