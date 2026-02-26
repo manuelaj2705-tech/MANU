@@ -10,8 +10,8 @@ image = Image.open ("imagenmultimodales.jpg")
 st.image (image,caption= "interfaces multimodales")
 
 
-texto = st.text_imput ("Escribir algo" , "Este es mi texto")
-st.write ("El texto escrito es ",texto)
+texto = st.text_input("Escribir algo", "Este es mi texto")
+st.write("El texto escrito es", texto)
 
 st.subheader ("ahora usamos dos columnas")
 
