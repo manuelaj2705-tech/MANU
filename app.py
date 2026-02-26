@@ -1,41 +1,40 @@
 import streamlit as st
 from PIL import Image 
 
-st.title ("snoppy")
+st.title("snoppy")
 
-st.header ("En este espacio comienzso a desarrolar mis apps ")
-st.write ("facilmente puedo realizar backend y frontemd")
-image = Image.open ("imagenmultimodales.jpg")
+st.header("En este espacio comienzo a desarrollar mis apps")
+st.write("Fácilmente puedo realizar backend y frontend")
 
-st.image (image,caption= "interfaces multimodales")
-
+image = Image.open("imagenmultimodales.jpg")
+st.image(image, caption="interfaces multimodales")
 
 texto = st.text_input("Escribir algo", "Este es mi texto")
 st.write("El texto escrito es", texto)
 
-st.subheader ("ahora usamos dos columnas")
+st.subheader("Ahora usamos dos columnas")
 
-col1,col2 =st.columnas(2)
+col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Esta es la primera columna")
-    st.write ("las interfaces multimodales mejoran la experiencia de usuario ")
-    resp= st.checkbox ("estoy de acuerdo")
+    st.write("Las interfaces multimodales mejoran la experiencia de usuario")
+    resp = st.checkbox("Estoy de acuerdo")
     if resp:
-      st.write("correcto")
+        st.write("Correcto")
 
 with col2:
     st.subheader("Esta es la segunda columna")
-    modo= st.radio ("que modalidad", ("visual","auditiva", "tactil"))
+    modo = st.radio("Qué modalidad", ("visual", "auditiva", "tactil"))
     if modo == "visual":
-        st.write ("la vista es fundamental para la interfaz")
-    if modo == "auditiva ":
-        st.write ("la audicion es fundamental ")
-    if modo== "tactil":
-        st.write ("lo tactil es importante ")
+        st.write("La vista es fundamental para la interfaz")
+    if modo == "auditiva":
+        st.write("La audición es fundamental")
+    if modo == "tactil":
+        st.write("Lo táctil es importante")
 
-st.subheader ("uso botones ")
-if st.button ("presiona el boton"):
-    st.write ("gracias por presionar")
+st.subheader("Uso botones")
+if st.button("Presiona el botón"):
+    st.write("Gracias por presionar")
 else:
-      st.write ("no has presinado aun")
+    st.write("No has presionado aún")
