@@ -34,7 +34,7 @@ with col2:
     )
 
     if modo == "Tira cómica":
-        st.write("Correcto ✅ \n 
+        st.write("Correcto ✅ 
         Snoopy apareció originalmente en la tira cómica Peanuts")
  
     if modo == "Película":
