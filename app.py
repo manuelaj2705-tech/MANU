@@ -80,10 +80,10 @@ elif in_mod == "Soñador ☁️":
 elif in_mod == "Relajado 😌":
     set_mod = "Reproducir música suave 🎧"
 else:
-    set_mod = "A veces creemos que la felicidad es algo enorme, complicado o lejano.
+ set_mod = """A veces creemos que la felicidad es algo enorme, complicado o lejano.
 Pero Snoopy nos recuerda que puede estar en una tarde tranquila,
 en una risa sin razón o en permitirnos descansar sin culpa.
 No todo tiene que tener sentido hoy.
-A veces, simplemente estar… ya es suficiente.
+A veces, simplemente estar… ya es suficiente."""
 
 st.write("La acción es:", set_mod)
