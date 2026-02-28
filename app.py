@@ -27,7 +27,7 @@ with col1:
 
 with col2:
     st.markdown(
-        "<div style='padding-left:40px'>",
+        "<div style='padding-left:50px'>",
         unsafe_allow_html=True
     )
 
