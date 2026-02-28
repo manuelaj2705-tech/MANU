@@ -1,7 +1,18 @@
 import streamlit as st
 from PIL import Image 
 
-st.title("Snoppy")
+st.markdown(
+    """
+    <h1 style='
+        font-size:90px;
+        text-align:center;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    '>
+        Snoopy
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
 
 st.header("¿Quien es Snoppy?")
 st.write("Snoopy es un personaje icónico de la tira cómica Peanuts. Aunque es un perro, se comporta como un humano: sueña, imagina historias y vive en su propio mundo creativo. Es conocido por su personalidad divertida, reflexiva y soñadora, lo que lo convierte en un símbolo de la imaginación y la expresión emocional.")
