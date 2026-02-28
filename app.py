@@ -23,7 +23,7 @@ with col1:
     desacuerdo = st.checkbox("No estoy de acuerdo")
 
     if acuerdo:
-        st.write("Correcto")
+        st.write("Correcto ✅")
 
 with col2:
     st.subheader("Esta es la segunda columna")
@@ -34,8 +34,7 @@ with col2:
     )
 
     if modo == "Tira cómica":
-        st.write("Correcto ✅ 
-        Snoopy apareció originalmente en la tira cómica Peanuts")
+        st.write("Correcto ✅ - Snoopy apareció originalmente en la tira cómica Peanuts")
  
     if modo == "Película":
         st.write("❌ Incorrecto. Las películas llegaron después")
