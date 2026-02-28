@@ -77,7 +77,7 @@ if in_mod == "Feliz 😊":
     set_mod = "😊 La vida es mejor cuando la bailas, aunque no haya música💃"
 elif in_mod == "Soñador ☁️":
     set_mod = "  st.image(
-        "https://upload.wikimedia.org/wikipedia/en/5/53/Snoopy_Peanuts.png",
+        "https://esp.phoneky.com/wallpapers/?id=w47w2910541",
         use_container_width=True"
 elif in_mod == "Relajado 😌":
     set_mod = "Reproducir música suave 🎧"
