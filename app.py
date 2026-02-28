@@ -26,6 +26,11 @@ with col1:
         st.write("Correcto ✅")
 
 with col2:
+    st.markdown(
+        "<div style='padding-left:40px'>",
+        unsafe_allow_html=True
+    )
+
     st.subheader("Esta es la segunda columna")
 
     modo = st.radio(
@@ -34,13 +39,13 @@ with col2:
     )
 
     if modo == "Tira cómica":
-        st.write("Correcto ✅ - Snoopy apareció originalmente en la tira cómica Peanuts")
- 
-    if modo == "Película":
+        st.write("✅ Correcto. Snoopy apareció originalmente en la tira cómica Peanuts")
+    elif modo == "Película":
         st.write("❌ Incorrecto. Las películas llegaron después")
-
-    if modo == "Videojuego":
+    else:
         st.write("❌ Incorrecto. No fue su primer medio")
+
+    st.markdown("</div>", unsafe_allow_html=True)
 
 st.subheader("Uso botones")
 if st.button("Presiona el botón"):
