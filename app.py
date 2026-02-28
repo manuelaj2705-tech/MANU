@@ -4,9 +4,7 @@ from PIL import Image
 st.title("Snoppy")
 
 st.header("¿Quien es Snoppy?")
-st.write("Snoopy es un personaje icónico de la tira cómica Peanuts. Aunque es un perro, se comporta como un humano: sueña, 
-imagina historias y vive en su propio mundo creativo. Es conocido por su personalidad divertida, reflexiva y soñadora, 
-lo que lo convierte en un símbolo de la imaginación y la expresión emocional.")
+st.write("Snoopy es un personaje icónico de la tira cómica Peanuts. Aunque es un perro, se comporta como un humano: sueña, imagina historias y vive en su propio mundo creativo. Es conocido por su personalidad divertida, reflexiva y soñadora, lo que lo convierte en un símbolo de la imaginación y la expresión emocional.")
 
 image = Image.open("imagenmultimodales.jpg")
 st.image(image, caption="Snoppy Sentado")
