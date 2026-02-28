@@ -12,7 +12,7 @@ st.image(image, caption="Snoppy sentado")
 texto = st.text_input("¿Quieres decirle algo a Snoppy?", "Escribe algo para Snoppy ")
 st.write("El texto escrito es para Snoppy")
 
-st.subheader("¿RESPONDE ESTAS PREGUNTAS?")
+st.subheader("RESPONDE ESTAS PREGUNTAS")
 
 col1, col2 = st.columns(2)
 
