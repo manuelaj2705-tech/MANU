@@ -27,13 +27,20 @@ with col1:
 
 with col2:
     st.subheader("Esta es la segunda columna")
-    modo = st.radio("Qué modalidad", ("visual", "auditiva", "tactil"))
-    if modo == "visual":
-        st.write("La vista es fundamental para la interfaz")
-    if modo == "auditiva":
-        st.write("La audición es fundamental")
-    if modo == "tactil":
-        st.write("Lo táctil es importante")
+
+    modo = st.radio(
+        "¿En qué medio aparece Snoopy originalmente?",
+        ("Tira cómica", "Película", "Videojuego")
+    )
+
+    if modo == "Tira cómica":
+        st.write("Correcto ✅ Snoopy apareció originalmente en la tira cómica Peanuts")
+
+    if modo == "Película":
+        st.write("❌ Incorrecto. Las películas llegaron después")
+
+    if modo == "Videojuego":
+        st.write("❌ Incorrecto. No fue su primer medio")
 
 st.subheader("Uso botones")
 if st.button("Presiona el botón"):
