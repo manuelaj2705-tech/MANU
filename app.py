@@ -55,17 +55,20 @@ if st.button("Presiona el botón si te gusta "):
 else:
     st.write("No te gusta Snoppy 💔")
 
-st.subheader("selectbox")
+st.subheader("Elige una opción")
 in_mod = st.selectbox(
-    "selecciona la modalidad",
-    ("audio", "visual", "haptico"),
+    "¿Cómo está Snoopy hoy?",
+    ("Feliz 😊", "Soñador ☁️", "Relajado 😌", "Pensativo 🤔"),
 )
 
-if in_mod == "audio":
-    set_mod = "reproducir audio"
-elif in_mod == "visual":
-    set_mod = "reproducir video"
-elif in_mod == "haptico":
-    set_mod = "Activar vibracion"
 
-st.write("la accion es:", set_mod)
+if in_mod == "Feliz 😊":
+    set_mod = "Mostrar una frase alegre 🎉"
+elif in_mod == "Soñador ☁️":
+    set_mod = "Mostrar una imagen soñadora 🌙"
+elif in_mod == "Relajado 😌":
+    set_mod = "Reproducir música suave 🎧"
+else:
+    set_mod = "Mostrar una reflexión 🤔"
+
+st.write("La acción es:", set_mod)
