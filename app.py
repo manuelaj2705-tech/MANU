@@ -51,7 +51,7 @@ with col2:
 
 st.subheader("Te gusta Snoopy")
 if st.button("Presiona el botón si te gusta "):
-    st.write("Gracias por presionar ✅ ")
+    st.write("Eres fan #1 de Snoppy ✅ ")
 else:
     st.write("No te gusta Snoppy 💔")
 
