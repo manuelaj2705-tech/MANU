@@ -3,11 +3,11 @@ from PIL import Image
 
 st.title("Snoppy")
 
-st.header("¿Quien es Snoppy")
+st.header("¿Quien es Snoppy?")
 st.write("Snoopy es un famoso perro de raza Beagle, protagonista junto a Charlie Brown de la icónica tira cómica Peanuts")
 
 image = Image.open("imagenmultimodales.jpg")
-st.image(image, caption="Snoppy sentado")
+st.image(image, caption="Snoppy Sentado")
 
 texto = st.text_input("¿Quieres decirle algo a Snoppy?", "Escribe algo para Snoppy ")
 st.write("El texto escrito es para Snoppy")
@@ -15,12 +15,14 @@ st.write("El texto escrito es para Snoppy")
 st.subheader("RESPONDE ESTAS PREGUNTAS")
 
 col1, col2 = st.columns(2)
-
 with col1:
     st.subheader("Esta es la primera columna")
-    st.write("Las interfaces multimodales mejoran la experiencia de usuario")
-    resp = st.checkbox("Estoy de acuerdo")
-    if resp:
+    st.write("Snoopy actúa más como humano que como perro")
+
+    acuerdo = st.checkbox("Estoy de acuerdo")
+    desacuerdo = st.checkbox("No estoy de acuerdo")
+
+    if acuerdo:
         st.write("Correcto")
 
 with col2:
