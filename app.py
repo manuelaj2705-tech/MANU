@@ -76,7 +76,7 @@ in_mod = st.selectbox(
 if in_mod == "Feliz 😊":
     set_mod = "😊 La vida es mejor cuando la bailas, aunque no haya música💃"
 elif in_mod == "Soñador ☁️":
-    set_mod = "  imagen sonppy soñador "
+    set_mod = "  imagen snoopy soñador ☁️ "
 elif in_mod == "Relajado 😌":
     set_mod = "Reproducir música suave 🎧"
 else:
