@@ -53,7 +53,7 @@ st.subheader("Te gusta Snoopy")
 if st.button("Presiona el botón si te gusta "):
     st.write("Gracias por presionar ✅ ")
 else:
-    st.write("No has presionado aún")
+    st.write("No te gusta Snoppy 💔")
 
 st.subheader("selectbox")
 in_mod = st.selectbox(
