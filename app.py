@@ -49,9 +49,9 @@ with col2:
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-st.subheader("Uso botones")
-if st.button("Presiona el botón"):
-    st.write("Gracias por presionar")
+st.subheader("Te gusta Snoopy")
+if st.button("Presiona el botón si te gusta "):
+    st.write("Gracias por presionar ✅ ")
 else:
     st.write("No has presionado aún")
 
