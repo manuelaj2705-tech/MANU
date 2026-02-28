@@ -1,15 +1,15 @@
 import streamlit as st
 from PIL import Image 
 
-st.title("snoppy")
+st.title("Snoppy")
 
-st.header("En este espacio comienzo a desarrollar mis apps")
-st.write("Fácilmente puedo realizar backend y frontend")
+st.header("¿Quien es Snoppy")
+st.write("Snoopy es un famoso perro de raza Beagle, protagonista junto a Charlie Brown de la icónica tira cómica Peanuts")
 
 image = Image.open("imagenmultimodales.jpg")
-st.image(image, caption="interfaces multimodales")
+st.image(image, caption="Snoppy sentado")
 
-texto = st.text_input("Escribir algo", "Este es mi texto")
+texto = st.text_input("¿Quieres decirle algo a Snoppy?", "Escribe algo para Snoppy ")
 st.write("El texto escrito es", texto)
 
 st.subheader("Ahora usamos dos columnas")
