@@ -74,7 +74,7 @@ in_mod = st.selectbox(
 
 
 if in_mod == "Feliz 😊":
-    set_mod = "“La vida es mejor cuando la bailas, aunque no haya música.”"
+    set_mod = "La vida es mejor cuando la bailas, aunque no haya música."
 elif in_mod == "Soñador ☁️":
     set_mod = "Mostrar una imagen soñadora 🌙"
 elif in_mod == "Relajado 😌":
