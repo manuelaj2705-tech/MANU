@@ -74,12 +74,16 @@ in_mod = st.selectbox(
 
 
 if in_mod == "Feliz 😊":
-    set_mod = "Mostrar una frase alegre 🎉"
+    set_mod = "“La vida es mejor cuando la bailas, aunque no haya música.”"
 elif in_mod == "Soñador ☁️":
     set_mod = "Mostrar una imagen soñadora 🌙"
 elif in_mod == "Relajado 😌":
     set_mod = "Reproducir música suave 🎧"
 else:
-    set_mod = "Mostrar una reflexión 🤔"
+    set_mod = "A veces creemos que la felicidad es algo enorme, complicado o lejano.
+Pero Snoopy nos recuerda que puede estar en una tarde tranquila,
+en una risa sin razón o en permitirnos descansar sin culpa.
+No todo tiene que tener sentido hoy.
+A veces, simplemente estar… ya es suficiente.
 
 st.write("La acción es:", set_mod)
